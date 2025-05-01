@@ -3,7 +3,7 @@ import ezsheets
 import os
 
 # Path to your input file (e.g., CSV or XLSX)
-input_file = 'C:\\Users\\david\\mu_code\\example10.xlsx'  # Change to your file
+input_file = 'D:\\Python Projects\\Chapter 14\\example10.xlsx'  # Change to your file
 
 # Upload the spreadsheet to Google Sheets
 ss = ezsheets.upload(input_file)

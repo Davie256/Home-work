@@ -2,7 +2,7 @@
 import ezsheets
 
 # Load all spreadsheets (will prompt you the first time)
-ss = ezsheets.Spreadsheet('david')  # Or use your actual spreadsheet name
+ss = ezsheets.Spreadsheet('User Input (Responses)')  # Or use your actual spreadsheet name
 sheet = ss[0]  # First sheet in the spreadsheet
 
 # Skip the header row and collect emails
